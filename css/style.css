@@ -1,0 +1,15 @@
+html {
+  background: url(../images/background_light.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+}
+
+.container {
+  width: 830px;
+  margin: auto;
+}
+
+/*Header styles*/
+header img{
+  margin-top: 45px;
+}
