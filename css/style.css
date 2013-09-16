@@ -1,6 +1,6 @@
 html {
-  background: url(../images/background_light.jpg) no-repeat center center fixed;
-  background-size: cover;
+  background: url(../images/background_light.jpg) repeat-x top center;
+  background-color: #C4C0BE;
 }
 
 .container {
@@ -10,7 +10,7 @@ html {
 
 /*Header styles*/
 header img{
-  margin-top: 55px;
+  margin-top: 20px;
   margin-bottom: 9px;
 }
 
