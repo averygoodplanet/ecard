@@ -63,5 +63,33 @@ p {
   line-height: 16px;
 }
 
+article {
+  width: 520px;
+  margin-top: -21px;
+  background-color: white;
+}
 
+section article:first-child {
+  background: url(../images/background-inner.jpg) repeat-x;
+}
 
+section article h1 {
+  padding-top: 10px;
+}
+
+.article {
+  width: 500px;
+  margin-left: 10px;
+  border-bottom: 1px solid black;
+}
+
+section {
+  float: left;
+}
+
+aside {
+  float: left;
+  width: 238px;
+  /*height: 666px;*/
+  background-color: #666666;
+}
