@@ -5,11 +5,61 @@ html {
 }
 
 .container {
-  width: 830px;
+  width: 758px;
   margin: auto;
 }
 
 /*Header styles*/
 header img{
   margin-top: 45px;
+}
+
+/*Hero styles*/
+
+.hero {
+  background-color: white
+}
+
+.hero_column {
+  float: left;
+  width: 380px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.hero img {
+  float: left;
+  width: 334px;
+  height: 230px;
+  margin-left: 15px;
+  margin-top: 10px;
+  border: 1px solid #cccccc;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 11px;
+  margin-top: -16px;
+}
+
+a {
+  text-decoration: none;
+  color: #3399ff;
+}
+
+p {
+  font-size: 11px;
+  color: #999999;
+  line-height: 16px;
+}
+
+.hero div.clear {
+  margin-bottom: 28px;
 }
