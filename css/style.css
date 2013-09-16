@@ -1,7 +1,6 @@
 html {
   background: url(../images/background_light.jpg) no-repeat center center fixed;
   background-size: cover;
-  -moz-background-size: cover;
 }
 
 .container {
@@ -11,13 +10,17 @@ html {
 
 /*Header styles*/
 header img{
-  margin-top: 45px;
+  margin-top: 55px;
+  margin-bottom: 9px;
 }
 
 /*Hero styles*/
 
 .hero {
-  background-color: white
+  background: url(../images/background-inner.jpg) repeat-x;
+  background-color: white;
+  padding-bottom: 28px;
+  border: 1px solid white;
 }
 
 .hero_column {
@@ -60,6 +63,5 @@ p {
   line-height: 16px;
 }
 
-.hero div.clear {
-  margin-bottom: 28px;
-}
+
+
