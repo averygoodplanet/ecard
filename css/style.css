@@ -73,6 +73,10 @@ section article:first-child {
   background: url(../images/background-inner.jpg) repeat-x;
 }
 
+section article:last-child {
+  padding-bottom: 10px;
+}
+
 section article h1 {
   padding-top: 10px;
 }
@@ -90,7 +94,7 @@ section {
 aside {
   float: left;
   width: 228px;
-  /*height: 666px;*/
+  height: 542px;
   background-color: #666666;
   padding-left:10px;
 }
@@ -99,9 +103,25 @@ aside a {
   display:block;
   text-decoration: none;
   color: #333333;
+  font-size: 13px;
+  padding-bottom: 5px;
 }
 
 h3 {
   font-weight:lighter;
   font-size: 17px;
+}
+
+footer {
+  height:46px;
+  background-color:black;
+  position: relative;
+}
+
+footer span {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  right: 18px;
+  top: 19px;
 }
